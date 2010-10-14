@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="bubbrubb.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("#bubbrubb").bubbRubb({
+          feeds: ['http://max.couchone.com/pdx911/_design/push/_list/feed/recent?descending=true&limit=5']
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div id="bubbrubb">
+    </div>
+  </body>
+</html>
