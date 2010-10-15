@@ -9,11 +9,10 @@
     };
 
     function displayFeeds() {
-      // TODO: This sort needs to be able to compare the date formats in the feeds
-      //feedData.sort(function(left, right) {
-      //  var a = left.postedTime, b = right.postedTime;
-      //  return a < b ? -1 : a > b ? 1 : 0;
-      //});
+      feedData.sort(function(left, right) {
+        var a = left.postedTime, b = right.postedTime;
+        return a < b ? -1 : a > b ? 1 : 0;
+      });
 
       $.each(feedData, function(i, items) {
         $.each(items, function(i, row){
