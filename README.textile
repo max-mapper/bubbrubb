@@ -1,4 +1,4 @@
-h1. bubbRubb - bubbRubb can publicize your pubsubhubbub!
+h1. bubbRubb can publicize your pubsubhubbub!
 
 "ActivityStreams":http://activitystrea.ms are an awesome JSON format for displaying feed of activity. Think RSS or ATOM but more generic and without XML. @bubbRubb@ will easily display any number of remote ActivityStreams feeds on any page using jQuery.
 
