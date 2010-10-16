@@ -1,6 +1,6 @@
 h1. bubbRubb can publicize your pubsubhubbub!
 
-"ActivityStreams":http://activitystrea.ms are an awesome JSON format for displaying feed of activity. Think RSS or ATOM but more generic and without XML. @bubbRubb@ will easily display any number of remote ActivityStreams feeds on any page using jQuery.
+"ActivityStreams":http://activitystrea.ms are an awesome JSON format for displaying feed of activity. Think RSS or ATOM but more generic and without XML. @bubbRubb@ will easily display any number of remote ActivityStreams feeds (like "this one":http://pdxapi.com/pdx911/feed?descending=true&limit=5 on any page using jQuery.
 
 Using "couchpubtato":http://github.com/maxogden/couchpubtato you can leverage the power of CouchDB, Superfeedr and PubSubHubbub to convert remote RSS/ATOM feeds into your own ActivityStreams APIs.
 
